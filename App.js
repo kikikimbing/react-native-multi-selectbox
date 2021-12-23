@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { Text, View } from 'react-native'
-import SelectBox from 'react-native-multi-selectbox'
+// import SelectBox from 'react-native-multi-selectbox'
 import { xorBy } from 'lodash'
+import SelectBox from './lib'
 
 // Options data must contain 'item' & 'id' keys
 
